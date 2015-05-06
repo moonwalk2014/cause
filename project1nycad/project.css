@@ -1,0 +1,245 @@
+html{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+
+	 background-image: url("back_bg.png");
+     background-repeat: no-repeat;      
+}
+
+.news{
+  margin-top: 40px
+}
+
+.basket{
+  width: 100%;
+  text-align: center;
+}
+
+.woman{
+  width: 100%;
+  text-align: center;
+}
+
+.leftcolumn{
+  float: left;
+  /*background-color: pink;*/
+  width: 460px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.rightcolumn{
+  float: left;
+  /*background-color: red;*/
+  width: 460px;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer{
+  clear: both;
+	background-color: teal;
+	width: 100%;
+	height: 280px;
+	margin-top:100px;
+}
+
+h2{
+ height: 20px;
+ font-size: 20px;
+}
+.infol{
+  margin-left: 20px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+  float:right;
+  height: 50px;
+
+display: inline-block;
+}
+.email{
+  float: left;
+  margin-top: 10px;
+  margin-left:20px; 
+}
+
+.phone{
+  float: left;
+  margin-top: 30px;
+  margin-left:20px; 
+  width: 20px;
+}
+
+.address{
+  float: left;
+  margin-top: 40px;
+  margin-left:20px; 
+  margin-right: 50px;
+  width: 20px;
+}
+
+
+.infoc{
+  margin-left: 20px;
+  margin-top: 1px;
+  float: right;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.infor{
+  margin-left: 20px;
+  margin-top: 3px;
+  float:right;
+  height: 50px;
+  display: inline-block;
+}
+
+ul{
+
+}
+
+li{
+	margin-top: 10px;
+	margin-left: 60px;
+	list-style-type: none;
+	display: inline-block;
+	font-size: 20px;
+
+
+}
+a{
+	text-decoration: none;
+}
+.nav-link{
+
+display: inline-block;
+
+}
+
+
+.texttittle{
+   font-size: 20px;
+
+}
+
+.banner {
+	background-color: violet;
+	background-image: url("banner.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	text-align: center;
+	/*margin: 0 auto;*/
+}
+
+
+.nav { 
+	position: relative;
+	background-color:#7b8f88;
+	height: 60px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+
+  width: 90px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.btnsocial {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+
+  float: right;
+  margin-top: 0px;
+  width: 90px;
+}
+
+.btnsocial:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.contain{
+
+  margin-left: 200px;
+}
+.container{
+  width: 1000px;
+  margin:0 auto;
+}
+
+.news_content{
+	border: 1px solid;
+	margin-left: 120px;
+	margin-top: 100px;
+	width: 695px;
+}
+
+.left{
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+  width: 250px;
+  display: block;
+  margin-top: 20px;
+ }
+
+.center{
+  float: left;
+  width: 300px;
+  display: block;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.right{
+  float: left;
+  margin-left: 10px;
+  width: 250px;
+  margin-top: 20px;
+  display:block;
+}
